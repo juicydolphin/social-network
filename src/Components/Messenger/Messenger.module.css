@@ -1,0 +1,21 @@
+.messenger {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+
+}
+
+.messengerDialogs {
+    padding: 10px;
+}
+
+.messengerDialogs .active {
+   color: gold;
+}
+
+.messages {
+    padding: 10px;
+}
+
+.message {
+
+}
