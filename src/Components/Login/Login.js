@@ -14,6 +14,8 @@ const Login = (props) => {
     }
     return (<div>
             <h1>Авторизация</h1>
+            <span>Логин: dolphin.krsk@gmail.com</span>
+            <span>Пароль: 1234567</span>
             <LoginReduxForm onSubmit={onSubmit}/>
 
         </div>
